@@ -1,0 +1,19 @@
+{
+  "name": "processStreet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "blueimp-file-upload": "git+https://github.com/blueimp/jQuery-File-Upload.git",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0",
+    "jquery.2": "^1.0.0"
+  }
+}
