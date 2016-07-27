@@ -3,8 +3,7 @@ angular
     .directive('uploader', function() {
         return {
             controller: uploaderController,
-            templateUrl: './uploader.directive.html',
-            scope: true
+            templateUrl: './uploader.directive.html'
         };
 
         uploaderController.$inject = ['$scope'];
