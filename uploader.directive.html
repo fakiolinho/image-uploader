@@ -1,7 +1,7 @@
 <div class="container">
-    <div class="row" ng-if="thumbnailUrl">
+    <div class="row" ng-if="videoHash">
         <div class="col-xs-12">
-            <img ng-src="{{thumbnailUrl}}" class="thumbnail center-block" alt="" />
+            <div ng-class="'wistia_embed wistia_async_' + videoHash" class="center-block" style="height:352px;width:640px">&nbsp;</div>
         </div>
     </div>
 
